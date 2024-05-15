@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     h1{
+      margin-top: 40px;
+   
+      font-family: 'Times New Roman', Times, serif;
+      
+
+   }
+            *{
+padding: 0;
+margin: 0;
+}
+
+header{
+height: 45px;
+}
+header nav ul{
+display: flex;
+margin-left: 20%;
+}
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: wheat;
+    padding:15px 0px;
+  }
+header nav ul li{
+padding-left: 45px;
+list-style: none;
+}
+.men{
+   display: flex;
+   float: right;
+   margin-left: 30%;
+   list-style: none;
+
+}
+.logo{
+   margin: top 2px;
+}
+ 
+      .grid {
+          
+           width: 75vw;
+            height: 75vh;
+            
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            grid-template-rows: auto auto auto;
+            column-gap: 10px;
+            row-gap: 10px;
+          
+        }
+        .ingrid {
+           flex: 15%;
+           max-width: 20%;
+         
+        }
+      
+           .ingrid {
+              flex: 20%;
+              width: 100px;
+              max-width: 100%;
+           }
+        
+.wrape{
+margin-left: 70%;
+        float: right;
+    height: 30vh;
+    width: 40vw;
+    display: list-item;
+   list-style: none;
+}
+
+
+.square{
+    width: 63%;
+    height: 30%;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 15px;
+}
+.sel{
+    background-color: brown;
+    color: white;
+}
+li{
+   list-style: none;
+}
+     .text{
+      display: flex;
+      float: right;
+      
+      margin-right: 90px;
+      padding-bottom: 90px;
+
+     }         
+     </style>
+</head>
+<body>
+   <header>
+      <nav>
+         <div class="logo">  
+                <img src="./logo.png" width="300px" alt="logo">  
+              </div>
+      <ul>
+      <li><a >HOME</a></li>
+      <li><a >STORE</a></li>
+      <li><a >ABOUT US</a></li>
+      <li><a >CONTACT US</a></li>
+      <div class="men"> <li> ACCOUNT </li> 
+         <li>CART</li>
+         </div>
+     
+      </ul>
+      </nav>
+      </header>
+      <center>
+         <h1 >ABAYA & CO </h1>
+         
+        </center>
+        
+    <div class="grid">
+        <div class="ingrid">
+           <img src="imag.jpg"/><li>Beige Abaya <br> RS:2000/-</li>
+           <img src="imagee.jpg"/><li>Metallic Abaya <br> Rs: 2000/-</li>
+           <img src="images.jpg" /><li>Black Abaya <br> Rs:1500/-</li>
+        </div>
+        <div class="ingrid">
+         <img src="image.jpg" width="450px"/>
+           <img src="images.jpg" width="300px"/><li> Black Abaya <br>RS:1500/- <br>Size: M   L    XL</li>
+           
+           <img src=""/>
+        </div>
+      </div>
+      <div class="text">
+        <ul>
+         <h3 style="color: brown;">Get discount using these Code:</h3>
+         <li style="color: brown;">Get this for Rs.1299</li>
+         <li style="color: brown;">Buy 2 & Get this for Rs.999 Code:<b>BUY2</b></li>
+         <li style="color: brown;">Buy 4 & Get this for Rs.799 Code:<b>BUY4</b></li>
+        </ul>
+      </div>
+        <div class="wrape">
+         <div class="square">ADD TO CART</div>
+         <div class="square sel">BUY NOW</div>
+         <div class="square">DESCRIPTION</div>
+         <div class="square">MORE INFORMATION</div>
+         <div class="square">RETURNS & EXCHANGE</div>
+         </div>
+        
+     
+
+</body>
+</html>
